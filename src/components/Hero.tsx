@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Instagram } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="mb-8 animate-fade-in">
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary p-1 shadow-glow">
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center text-6xl font-bold text-primary">
-                JD
+                TP
               </div>
             </div>
           </div>
@@ -24,14 +24,14 @@ const Hero = () => {
           {/* Main Content */}
           <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-              John Developer
+              Thrinesh Pujari
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-              Full Stack Developer & UI/UX Enthusiast
+              Full Stack Developer
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Passionate about creating beautiful, functional web experiences that solve real-world problems. 
-              Specializing in React, Node.js, and modern web technologies.
+              Passionate developer with experience in Python, Flask, HTML/CSS, and JavaScript. 
+              Interested in AI and SaaS projects, creating innovative solutions that make a difference.
             </p>
             
             {/* CTA Buttons */}
@@ -55,7 +55,7 @@ const Hero = () => {
                 <Linkedin className="h-6 w-6" />
               </Button>
               <Button variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
-                <Mail className="h-6 w-6" />
+                <Instagram className="h-6 w-6" />
               </Button>
             </div>
           </div>

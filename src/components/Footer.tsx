@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Heart, Github, Linkedin, Mail, ArrowUp } from "lucide-react";
+import { Heart, Github, Linkedin, Instagram, ArrowUp } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:john@developer.com", label: "Email" },
+    { icon: Instagram, href: "#", label: "Instagram" },
   ];
 
   return (
@@ -22,9 +22,9 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start space-x-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold">JD</span>
+                <span className="text-primary-foreground font-bold">TP</span>
               </div>
-              <span className="text-lg font-bold text-foreground">John Developer</span>
+              <span className="text-lg font-bold text-foreground">Thrinesh Pujari</span>
             </div>
             <p className="text-muted-foreground text-sm max-w-xs mx-auto md:mx-0">
               Crafting digital experiences with passion and precision.
@@ -64,7 +64,7 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
             <div className="flex items-center space-x-1 mb-4 md:mb-0">
-              <span>&copy; {currentYear} John Developer. Made with</span>
+              <span>&copy; {currentYear} Thrinesh Pujari. Made with</span>
               <Heart className="h-4 w-4 text-red-500 fill-current" />
               <span>and lots of coffee.</span>
             </div>

@@ -22,21 +22,20 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a passionate full-stack developer with over 5 years of experience creating 
-                  digital solutions that bridge the gap between design and functionality. My journey 
-                  started with curiosity about how websites work, and it has evolved into a deep 
-                  expertise in modern web technologies.
+                  I'm Thrinesh Pujari, a passionate full stack developer with expertise in Python, 
+                  Flask, HTML/CSS, and JavaScript. My journey in technology has been driven by 
+                  curiosity and a desire to create meaningful digital solutions.
                 </p>
                 <p>
-                  I specialize in React, Node.js, and cloud technologies, with a strong focus on 
-                  creating user-centered experiences. Whether it's building scalable web applications, 
-                  optimizing performance, or crafting intuitive user interfaces, I approach every 
-                  project with attention to detail and a commitment to excellence.
+                  I have a strong interest in AI and SaaS projects, constantly exploring how 
+                  artificial intelligence can enhance user experiences and solve complex problems. 
+                  My technical foundation spans both frontend and backend development, allowing 
+                  me to build complete web applications from concept to deployment.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me exploring new technologies, contributing to 
-                  open-source projects, or sharing knowledge with the developer community through 
-                  blog posts and mentoring.
+                  When I'm not coding, I enjoy staying updated with the latest tech trends, 
+                  working on personal projects, and contributing to the developer community. 
+                  I believe in continuous learning and am always excited to take on new challenges.
                 </p>
               </div>
             </div>
@@ -46,12 +45,12 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-foreground">What I Do Best</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {[
-                  "Full-Stack Development",
-                  "UI/UX Design",
-                  "Performance Optimization",
-                  "API Integration",
-                  "Database Design",
-                  "Cloud Architecture"
+                  "Python Development",
+                  "Flask Web Apps",
+                  "Frontend Development",
+                  "AI & NLP",
+                  "Firebase Integration",
+                  "Git Version Control"
                 ].map((skill, index) => (
                   <div 
                     key={skill}
@@ -76,7 +75,7 @@ const About = () => {
             <Card className="overflow-hidden border-0 shadow-elegant bg-gradient-primary p-1">
               <div className="bg-background rounded-lg overflow-hidden">
                 <div className="aspect-square bg-gradient-secondary flex items-center justify-center text-8xl font-bold text-primary">
-                  JD
+                  TP
                 </div>
               </div>
             </Card>
@@ -114,7 +113,7 @@ const About = () => {
                   every function should tell a story."
                 </blockquote>
                 <div className="text-center mt-4">
-                  <div className="text-sm font-semibold text-primary">- John Developer</div>
+                  <div className="text-sm font-semibold text-primary">- Thrinesh Pujari</div>
                 </div>
               </CardContent>
             </Card>

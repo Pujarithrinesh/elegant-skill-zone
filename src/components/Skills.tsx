@@ -6,38 +6,26 @@ const skillCategories = [
   {
     icon: Code,
     title: "Frontend Development",
-    skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "JavaScript"],
+    skills: ["HTML", "CSS", "JavaScript", "React"],
     color: "text-blue-500"
   },
   {
     icon: Server,
     title: "Backend Development", 
-    skills: ["Node.js", "Python", "Express", "FastAPI", "REST APIs", "GraphQL"],
+    skills: ["Python", "Flask"],
     color: "text-green-500"
   },
   {
     icon: Database,
     title: "Database & Cloud",
-    skills: ["PostgreSQL", "MongoDB", "AWS", "Docker", "Firebase", "Supabase"],
+    skills: ["Firebase"],
     color: "text-purple-500"
   },
   {
     icon: Palette,
-    title: "Design & UX",
-    skills: ["Figma", "Adobe XD", "UI/UX Design", "Prototyping", "User Research"],
+    title: "Tools & Version Control",
+    skills: ["Git", "GitHub"],
     color: "text-pink-500"
-  },
-  {
-    icon: Smartphone,
-    title: "Mobile Development",
-    skills: ["React Native", "Flutter", "iOS", "Android", "Cross-platform"],
-    color: "text-orange-500"
-  },
-  {
-    icon: Globe,
-    title: "Web Technologies",
-    skills: ["HTML5", "CSS3", "Webpack", "Vite", "PWA", "Web Performance"],
-    color: "text-cyan-500"
   }
 ];
 

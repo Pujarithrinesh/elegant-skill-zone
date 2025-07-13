@@ -43,9 +43,9 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">JD</span>
+              <span className="text-primary-foreground font-bold text-lg">TP</span>
             </div>
-            <span className="text-xl font-bold text-foreground">John Developer</span>
+            <span className="text-xl font-bold text-foreground">Thrinesh Pujari</span>
           </div>
 
           {/* Desktop Navigation */}

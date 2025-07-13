@@ -3,15 +3,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, MapPin, Phone, Send, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Phone, Send, Github, Linkedin, Instagram } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: Mail,
       label: "Email",
-      value: "john@developer.com",
-      href: "mailto:john@developer.com"
+      value: "thrinesh@developer.com",
+      href: "mailto:thrinesh@developer.com"
     },
     {
       icon: Phone, 
@@ -30,7 +30,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "#", color: "hover:text-gray-900" },
     { icon: Linkedin, label: "LinkedIn", href: "#", color: "hover:text-blue-600" },
-    { icon: Twitter, label: "Twitter", href: "#", color: "hover:text-blue-400" },
+    { icon: Instagram, label: "Instagram", href: "#", color: "hover:text-pink-500" },
   ];
 
   return (
